@@ -1,16 +1,56 @@
-# livetest
+# Food Recipes App
 
-A new Flutter project.
+A professional Flutter application demonstrating clean architecture, displaying a list of food recipes with their ingredients.
+
+## Features
+
+- **Recipe List**: View a curated list of delicious food recipes.
+- **Ingredient Details**: See a quick summary of ingredients for each dish.
+- **Clean Architecture**: Built using a modular and maintainable architecture (Domain, Data, and Presentation layers).
+- **Responsive UI**: Clean and modern design that works across different screen sizes.
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshort/1.jpeg" width="350" alt="App Screenshot">
+</p>
+
+## Tech Stack
+
+- **Framework**: [Flutter](https://flutter.dev/)
+- **Language**: [Dart](https://dart.dev/)
+- **Architecture**: Clean Architecture (Entities, Repositories, Use Cases, Models)
+- **Data Source**: Local JSON assets
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK
+- Android Studio / VS Code
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/livetest.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd livetest
+   ```
+3. Get dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the app:
+   ```bash
+   flutter run
+   ```
+
+## Folder Structure
+
+- `lib/domain`: Business logic and entities.
+- `lib/data`: Data sources and repository implementations.
+- `lib/presentation`: UI widgets and state management.
+- `assets`: Contains recipe data in JSON format.
